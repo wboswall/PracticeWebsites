@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Commission</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="engine.js"></script>
+	</head>
+	<body>
+		<h1>Commission of Harry's Sales</h1>
+		<h2>Problem</h2>
+			<p>Harry's to calculate his commission through an application.  The input is entered in the form and when submitted, it should display the commission rate.</p>
+		<h3>Prices</h3>
+			<table>
+				<tr>
+				  <td>Monthly Sales</td>
+				  <td>Commission Rate</td>
+				  <td>Test Data</td>
+				</tr>
+				<tr>
+				  <td>&#60;&#36;0</td>
+				  <td>0&#37;</td>
+				  <td>&#36;2500</td>
+				</tr>
+				<tr>
+				  <td>&#36;0-&#36;19,999.99</td>
+				  <td>4&#37;</td>
+				  <td>&#36;28,500</td>
+				</tr>
+				<tr>
+				  <td>&#36;20,000-&#36;29,999.99</td>
+				  <td>5&#37;</td>
+				  <td>3.50</td>
+				</tr>
+				<tr>
+				  <td>&#36;30,000-&#36;39,999.99</td>
+				  <td>6&#37;</td>
+				  <td>35,670.99</td>
+				</tr>
+				<tr>
+				  <td>&#36;40,000-&#36;49,999.99</td>
+				  <td>7&#37;</td>
+				  <td>42,300.00</td>
+				</tr>
+				<tr>
+				  <td>&#62;&#36;50,000 or more</td>
+				  <td>9&#37;</td>
+				  <td>&#36;50,000</td>
+				</tr>
+				<tr>
+				  <td>#</td>
+				  <td>#</td>
+				  <td>&#36;-3</td>
+				</tr>
+			</table>
+		<h1>Karleton Learning App</h1>
+			<form>
+				Enter Sales:<input type='number'></input><br>
+				Total Commission:<input type='number'></input>
+				<p id='receipt'></p>
+				<input type='Submit' value='Submit'></input>&nbsp;&nbsp;
+				<input type='Reset' value='Reset'></input>
+			</form>
+	</body>
+</html>
