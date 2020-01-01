@@ -1,0 +1,8 @@
+    # Folder:	HelloWorldWebSite
+    # File:	names.mysql
+    # Associated files: index.php, style.css, engine.js, and helloWebSiteLib.php
+    # Author:	@wboswall
+    # Copyright:	(C)2017 All Rights Reserved.
+    # Description:	This file will be the database that drives one of the mysql database for this website. 
+    # Date Created:	2017-12-03
+    # Date Modified:	2017-12-18
